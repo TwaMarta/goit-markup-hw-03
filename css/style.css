@@ -296,6 +296,10 @@ body {
 
 /*======PORTFOLIO======*/
 
+.por-conteiner {
+  width: 1600px;
+}
+
 .filtr-list {
   display: flex;
   justify-content: center;
