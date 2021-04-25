@@ -169,9 +169,12 @@ body {
 
 .poster {
   background-color: var(--secondary-background-color);
-  min-height: 600px;
-  min-width: 1600px;
+  height: 600px;
+  width: 1600px;
   margin-top: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .poster_title {
@@ -182,7 +185,7 @@ body {
   line-height: 1.363em;
   text-transform: uppercase;
   padding-top: 200px;
-  margin: 0px 452px 0px 452px;
+  margin: 0px;
 }
 
 .poster_btn {
@@ -194,7 +197,7 @@ body {
   font-size: 16px;
   line-height: 1.875em;
   background-color: var(--third-color);
-  margin: 150px 700px 200px 700px;
+  margin-top: 150px;
 }
 
 .poster_btn:focus,
@@ -264,6 +267,7 @@ body {
 .team {
   background-color: #f5f4fa;
   height: 648px;
+  width: 1600px;
 }
 
 .team-card {
